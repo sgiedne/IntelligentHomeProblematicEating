@@ -1,4 +1,4 @@
-# IntelligentHomeProblematicEating
+# Intelligent Home Problematic Eating
 
 ##Team Members -
 ###Ada Ng
