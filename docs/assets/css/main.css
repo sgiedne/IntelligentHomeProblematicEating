@@ -17,6 +17,10 @@
 		vertical-align: baseline;
 	}
 
+	.small_font{
+		font-size: 10pt;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -2895,7 +2899,7 @@
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 0.25em;
 		margin-top: -0.8em;
 		line-height: 1.5em;
 	}
