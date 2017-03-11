@@ -94,16 +94,25 @@
                         <p>
                             <ul class="small_font"> <strong>Paper Draft</strong> An initial draft of the paper on Detection of Problematic Eating was completed. Additional research and model development must be done in order to fine tune and complete the paper </ul>
                             <ul class="small_font"> <strong>Things to think about</strong> We’ve realized that what we should be creating is an algorithm that can be personalized and can learn the overeating behaviors of a single person. This will not change how we execute the study, but it will change how we process it later on. </ul>
-                            <ul class="small_font">As there are different types of overeating behaviors that can be exhibited by a single person, we need to think about how our algorithm can learn and differentiate between these different types of patterns.</ul    >
+                            <ul class="small_font">As there are different types of overeating behaviors that can be exhibited by a single person, we need to think about how our algorithm can learn and differentiate between these different types of patterns.</ul>
                         </p>
                     </section>
                     <section> <span class="icon major fa-cog"></span>
                         <h3>End of Week 8</h3>
-                        <p>TBD</p>
+                        <p>
+                            <ul class="small_font"> <strong>Algorithms</strong> We're looking into possible clustering algoritms thats can be used to segregate different patterns of overeating after data collection. </ul>
+                            <ul class="small_font"><b>Data Collection</b> We have scripted patterns of overeating and collecting data using the predefined sripts. We have scaled down a day from 24 hours to half an hour. We are currenly planning to collect data for a period of 21 days</ul>
+                            <ul class="small_font"> <strong>Things to think about</strong> Since the number of overeating patterns can vary between different users, we cannot employ K Means clustering </ul>
+                            <ul class="small_font"><b>Next steps</b> Begin data collection. Also read up literature on different types of clustering algorithms</ul>
+                        </p>
                     </section>
                     <section> <span class="icon major fa-desktop"></span>
                         <h3>End of Week 9</h3>
-                        <p>TBD</p>
+                        <p>
+                            <ul class="small_font"> <strong>Implementation</strong> We've decided to go with Mean Shift Clustering(MSC) to cluster input data. We have split the data with a window size of 3 hours. These 3 hour samples will be fed into the MSC algorithm. From the resulting clusters, we will target those clusters which have the largest number of overeating episodes within then and run each of these clusters through the Longest Common Subsequence(LCS) algorithm to abstract out patters of overeating for the particular user.</ul>
+                            <ul class="small_font"> <strong>Things to think about</strong> We must have the machine maintain state and remember the identified patterns of overeating. The system must also be able to provide a suitable form of intervetion to the user to prevent the user from overeating. </ul>
+                            <ul class="small_font"><b>Next steps</b> Improve/update our implementation process and continue working on the paper.</ul>
+                        </p>
                     </section>
                     <section> <span class="icon major fa-chain"></span>
                         <h3>End of Week 10</h3>
