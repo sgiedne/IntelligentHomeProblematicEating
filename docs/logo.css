@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 400px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    margin: calc(50vh - 240px) auto 0;
+}
+
+p {
+    text-align: center;
+}
